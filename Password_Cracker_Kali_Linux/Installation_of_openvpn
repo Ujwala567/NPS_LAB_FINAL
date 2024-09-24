@@ -1,0 +1,14 @@
+L$ ls /usr/share/wordlists
+amass dirb dirbuster dnsmap.txt downloads Downloads fasttrack.txt fern-wifi hydra. restore john. lsts legion metasploit nmap.lst
+−(kali®kali)-[/usr/share/wordlists]
+sudo apt update
+[sudo] password for kali:
+Hit: 1 http://http.kali.org/kali kali-rolling InRelease All packages are up to date.
+-(kali@kali)-[/usr/share/wordlists]
+sudo apt install openvpn
+openvpn is already the newest version (2.6.12-1).
+Upgrading: 0, Installing: 0, Removing: 0, Not Upgrading: 0
+
+−(kali® kali)-[/usr/share/wordlists]
+rockyou.txt sqlmap.txt wfuzz wifite.txt  libsvtavlenc1d1 libx265-199 openjdk-17-jre-headless libu2f-udev openjdk-17-jre python3-diskcache
+python3-mistune python3-pytzdata rwhod python3-pendulum
