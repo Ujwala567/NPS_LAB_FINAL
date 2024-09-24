@@ -1,0 +1,41 @@
+┌──(kali㉿kali)-[~/Downloads]
+└─$ ifconfig
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.2.15  netmask 255.255.255.0  broadcast 10.0.2.255
+        inet6 fe80::e73a:8137:9299:886c  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:d2:26:79  txqueuelen 1000  (Ethernet)
+        RX packets 4902  bytes 1368221 (1.3 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 4827  bytes 692260 (676.0 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 105638  bytes 15120137 (14.4 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 105638  bytes 15120137 (14.4 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+tun0: flags=4305<UP,POINTOPOINT,RUNNING,NOARP,MULTICAST>  mtu 1500
+        inet 10.17.10.223  netmask 255.255.128.0  destination 10.17.10.223
+        inet6 fe80::e179:645b:4864:1964  prefixlen 64  scopeid 0x20<link>
+        unspec 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  txqueuelen 500  (UNSPEC)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 4  bytes 192 (192.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+tun1: flags=4305<UP,POINTOPOINT,RUNNING,NOARP,MULTICAST>  mtu 1500
+        inet 10.17.10.223  netmask 255.255.128.0  destination 10.17.10.223
+        inet6 fe80::a9df:950c:ffeb:6d50  prefixlen 64  scopeid 0x20<link>
+        unspec 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  txqueuelen 500  (UNSPEC)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 4  bytes 192 (192.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+                                                                                                                                                                                                                                      
+┌──(kali㉿kali)-[~/Downloads]
+└─$
